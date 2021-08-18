@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Task One Suite">
+    <test name="Task One  Scenario">
+<!--        <parameter name="testCase" value="FindPurchaseOrderById_NegativeScenario1"/>-->
+<!--        <parameter name="environmentName" value="store"/>-->
+        <classes>
+            <class name="testSuites.toptal.TopTalTest">
+<!--            <class name="apiTest.PetTest">-->
+                <methods>
+                    <include name="GetListOfAllBreeds"/>
+                    <include name="VerifyRetriever"/>
+<!--                    <include name="GetListOfSubBreeds"/>-->
+<!--                    <include name="GetImageRandom"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

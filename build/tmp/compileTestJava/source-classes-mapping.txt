@@ -1,0 +1,6 @@
+testSuites/toptal/TopTalTest.java
+ testSuites.toptal.TopTalTest
+testSuites/TaskTwoTest.java
+ testSuites.TaskTwoTest
+testSuites/TaskOneTest.java
+ testSuites.TaskOneTest

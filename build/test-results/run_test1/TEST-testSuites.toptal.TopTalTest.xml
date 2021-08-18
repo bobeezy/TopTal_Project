@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuites.toptal.TopTalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-14T15:58:36" hostname="C02T9C9JGTFM" time="16.548">
+  <properties/>
+  <testcase name="GetListOfAllBreeds" classname="testSuites.toptal.TopTalTest" time="3.919"/>
+  <testcase name="VerifyRetriever" classname="testSuites.toptal.TopTalTest" time="0.86"/>
+  <testcase name="NavigateToUrl" classname="testSuites.toptal.TopTalTest" time="11.22"/>
+  <testcase name="ValidateUserListTable" classname="testSuites.toptal.TopTalTest" time="0.248"/>
+  <system-out><![CDATA[
+=============== GetListOfAllBreeds test executed successfully ===============
+
+
+=============== VerifyRetriever test executed successfully ===============
+
+Gecko driver directory - /Users/ab01367/Workspace/Java/TopTal_Test/src/main/resources/web/geckodriver
+Found element by Xpath : //tr//span[contains(text(), 'First Name')]/../..//span[contains(text(), 'Last Name')]/../..//span[contains(text(), 'User Name')]/../..//span[contains(text(), 'Customer')]/../..//span[contains(text(), 'Role')]/../..//span[contains(text(), 'E-mail')]/../..//span[contains(text(), 'Cell Phone')]/../..//span[contains(text(), 'Locked')]
+Found element by Xpath : //button[contains(text(), 'Add User')]
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO main.java.Engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/UserData.xlsx' successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get List Of All Breeds ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breeds/list/all
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": {
+        "pyrenees": [],
+        "affenpinscher": [],
+        "kuvasz": [],
+        "dingo": [],
+        "pug": [],
+        "husky": [],
+        "dachshund": [],
+        "greyhound": ["italian"],
+        "buhund": ["norwegian"],
+        "deerhound": ["scottish"],
+        "appenzeller": [],
+        "schipperke": [],
+        "stbernard": [],
+        "basenji": [],
+        "mountain": [
+            "bernese",
+            "swiss"
+        ],
+        "retriever": [
+            "chesapeake",
+            "curly",
+            "flatcoated",
+            "golden"
+        ],
+        "beagle": [],
+        "coonhound": [],
+        "dhole": [],
+        "rottweiler": [],
+        "airedale": [],
+        "elkhound": ["norwegian"],
+        "brabancon": [],
+        "springer": ["english"],
+        "whippet": [],
+        "mexicanhairless": [],
+        "boxer": [],
+        "labrador": [],
+        "kelpie": [],
+        "pointer": [
+            "german",
+            "germanlonghair"
+        ],
+        "chow": [],
+        "akita": [],
+        "shihtzu": [],
+        "bulldog": [
+            "boston",
+            "english",
+            "french"
+        ],
+        "briard": [],
+        "cattledog": ["australian"],
+        "leonberg": [],
+        "entlebucher": [],
+        "havanese": [],
+        "saluki": [],
+        "collie": ["border"],
+        "pekinese": [],
+        "bluetick": [],
+        "germanshepherd": [],
+        "weimaraner": [],
+        "schnauzer": [
+            "giant",
+            "miniature"
+        ],
+        "otterhound": [],
+        "australian": ["shepherd"],
+        "cockapoo": [],
+        "ovcharka": ["caucasian"],
+        "mastiff": [
+            "bull",
+            "english",
+            "tibetan"
+        ],
+        "sheepdog": [
+            "english",
+            "shetland"
+        ],
+        "eskimo": [],
+        "samoyed": [],
+        "corgi": ["cardigan"],
+        "malamute": [],
+        "papillon": [],
+        "chihuahua": [],
+        "lhasa": [],
+        "pembroke": [],
+        "spaniel": [
+            "blenheim",
+            "brittany",
+            "cocker",
+            "irish",
+            "japanese",
+            "sussex",
+            "welsh"
+        ],
+        "clumber": [],
+        "ridgeback": ["rhodesian"],
+        "keeshond": [],
+        "pitbull": [],
+        "dane": ["great"],
+        "redbone": [],
+        "waterdog": ["spanish"],
+        "bouvier": [],
+        "mix": [],
+        "komondor": [],
+        "malinois": [],
+        "cotondetulear": [],
+        "puggle": [],
+        "borzoi": [],
+        "poodle": [
+            "miniature",
+            "standard",
+            "toy"
+        ],
+        "groenendael": [],
+        "cairn": [],
+        "hound": [
+            "afghan",
+            "basset",
+            "blood",
+            "english",
+            "ibizan",
+            "plott",
+            "walker"
+        ],
+        "labradoodle": [],
+        "terrier": [
+            "american",
+            "australian",
+            "bedlington",
+            "border",
+            "dandie",
+            "fox",
+            "irish",
+            "kerryblue",
+            "lakeland",
+            "norfolk",
+            "norwich",
+            "patterdale",
+            "russell",
+            "scottish",
+            "sealyham",
+            "silky",
+            "tibetan",
+            "toy",
+            "westhighland",
+            "wheaten",
+            "yorkshire"
+        ],
+        "maltese": [],
+        "bullterrier": ["staffordshire"],
+        "finnish": ["lapphund"],
+        "african": [],
+        "newfoundland": [],
+        "shiba": [],
+        "pomeranian": [],
+        "pinscher": ["miniature"],
+        "setter": [
+            "english",
+            "gordon",
+            "irish"
+        ],
+        "frise": ["bichon"],
+        "vizsla": [],
+        "wolfhound": ["irish"],
+        "dalmatian": [],
+        "doberman": []
+    },
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get List Of All Breeds ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breeds/list/all
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": {
+        "pyrenees": [],
+        "affenpinscher": [],
+        "kuvasz": [],
+        "dingo": [],
+        "pug": [],
+        "husky": [],
+        "dachshund": [],
+        "greyhound": ["italian"],
+        "buhund": ["norwegian"],
+        "deerhound": ["scottish"],
+        "appenzeller": [],
+        "schipperke": [],
+        "stbernard": [],
+        "basenji": [],
+        "mountain": [
+            "bernese",
+            "swiss"
+        ],
+        "retriever": [
+            "chesapeake",
+            "curly",
+            "flatcoated",
+            "golden"
+        ],
+        "beagle": [],
+        "coonhound": [],
+        "dhole": [],
+        "rottweiler": [],
+        "airedale": [],
+        "elkhound": ["norwegian"],
+        "brabancon": [],
+        "springer": ["english"],
+        "whippet": [],
+        "mexicanhairless": [],
+        "boxer": [],
+        "labrador": [],
+        "kelpie": [],
+        "pointer": [
+            "german",
+            "germanlonghair"
+        ],
+        "chow": [],
+        "akita": [],
+        "shihtzu": [],
+        "bulldog": [
+            "boston",
+            "english",
+            "french"
+        ],
+        "briard": [],
+        "cattledog": ["australian"],
+        "leonberg": [],
+        "entlebucher": [],
+        "havanese": [],
+        "saluki": [],
+        "collie": ["border"],
+        "pekinese": [],
+        "bluetick": [],
+        "germanshepherd": [],
+        "weimaraner": [],
+        "schnauzer": [
+            "giant",
+            "miniature"
+        ],
+        "otterhound": [],
+        "australian": ["shepherd"],
+        "cockapoo": [],
+        "ovcharka": ["caucasian"],
+        "mastiff": [
+            "bull",
+            "english",
+            "tibetan"
+        ],
+        "sheepdog": [
+            "english",
+            "shetland"
+        ],
+        "eskimo": [],
+        "samoyed": [],
+        "corgi": ["cardigan"],
+        "malamute": [],
+        "papillon": [],
+        "chihuahua": [],
+        "lhasa": [],
+        "pembroke": [],
+        "spaniel": [
+            "blenheim",
+            "brittany",
+            "cocker",
+            "irish",
+            "japanese",
+            "sussex",
+            "welsh"
+        ],
+        "clumber": [],
+        "ridgeback": ["rhodesian"],
+        "keeshond": [],
+        "pitbull": [],
+        "dane": ["great"],
+        "redbone": [],
+        "waterdog": ["spanish"],
+        "bouvier": [],
+        "mix": [],
+        "komondor": [],
+        "malinois": [],
+        "cotondetulear": [],
+        "puggle": [],
+        "borzoi": [],
+        "poodle": [
+            "miniature",
+            "standard",
+            "toy"
+        ],
+        "groenendael": [],
+        "cairn": [],
+        "hound": [
+            "afghan",
+            "basset",
+            "blood",
+            "english",
+            "ibizan",
+            "plott",
+            "walker"
+        ],
+        "labradoodle": [],
+        "terrier": [
+            "american",
+            "australian",
+            "bedlington",
+            "border",
+            "dandie",
+            "fox",
+            "irish",
+            "kerryblue",
+            "lakeland",
+            "norfolk",
+            "norwich",
+            "patterdale",
+            "russell",
+            "scottish",
+            "sealyham",
+            "silky",
+            "tibetan",
+            "toy",
+            "westhighland",
+            "wheaten",
+            "yorkshire"
+        ],
+        "maltese": [],
+        "bullterrier": ["staffordshire"],
+        "finnish": ["lapphund"],
+        "african": [],
+        "newfoundland": [],
+        "shiba": [],
+        "pomeranian": [],
+        "pinscher": ["miniature"],
+        "setter": [
+            "english",
+            "gordon",
+            "irish"
+        ],
+        "frise": ["bichon"],
+        "vizsla": [],
+        "wolfhound": ["irish"],
+        "dalmatian": [],
+        "doberman": []
+    },
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: Verify retriever is within list 
+EXPECTED: chesapeake, curly, flatcoated, golden 
+ACTUAL: chesapeake, curly, flatcoated, golden
+[Test worker] INFO main.java.Engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/UserData.xlsx' successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - Web test is Starting ... 
+
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /Users/ab01367/.cache/selenium/geckodriver/mac64/0.29.1/geckodriver
+1628956725048	geckodriver	INFO	Listening on 127.0.0.1:14416
+1628956725458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/0mb7twcj5k38d4c0hkgn8dyh0000gp/T/rust_mozprofileYLirzR"
+1628956726209	Marionette	INFO	Marionette enabled
+2021-08-14 17:58:47.246 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSButton: 0x1290c9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.246 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSButton: 0x136124400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.247 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSButton: 0x136126000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.248 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSButton: 0x136124800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.248 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSButton: 0x136125000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.249 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13646cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-14 17:58:47.250 firefox-bin[26239:907200] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136473c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/_2/0mb7twcj5k38d4c0hkgn8dyh0000gp/T/rust_mozprofileYLirzR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1628956728677	Marionette	INFO	Listening on port 63104
+1628956728784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Aug 14, 2021 5:58:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO main.java.Engine.DriverFactory - Firefox on local machine initiated 
+
+[Test worker] INFO main.java.Engine.DriverFactory - Launched Browser successfully
+JavaScript warning: http://code.angularjs.org/1.2.0rc1/angular.min.js, line 184: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Test worker] INFO main.java.Engine.DriverFactory - Navigated to http://www.way2automation.com/angularjs-protractor/webtables/ successfully
+[Test worker] INFO main.java.Engine.DriverFactory - 
+=============== NavigateToUrl test executed successfully ===============
+
+[Test worker] INFO main.java.Engine.DriverFactory - Validated User List Table successfully
+[Test worker] INFO main.java.Engine.DriverFactory - 
+=============== ValidateUserListTable test executed successfully ===============
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-14T15:58:34Z" name="Task One Suite" finished-at="2021-08-14T15:58:41Z" duration-ms="7605">
+    <groups>
+    </groups>
+    <test started-at="2021-08-14T15:58:34Z" name="Task One  Scenario" finished-at="2021-08-14T15:58:41Z" duration-ms="7605">
+      <class name="testSuites.toptal.TopTalTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:testSuites.toptal.TopTalTest@3bc42a2c]" started-at="2021-08-14T15:58:34Z" name="startEngine" finished-at="2021-08-14T15:58:36Z" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="GetListOfAllBreeds()[pri:0, instance:testSuites.toptal.TopTalTest@3bc42a2c]" started-at="2021-08-14T15:58:36Z" name="GetListOfAllBreeds" finished-at="2021-08-14T15:58:40Z" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetListOfAllBreeds -->
+        <test-method signature="VerifyRetriever()[pri:1, instance:testSuites.toptal.TopTalTest@3bc42a2c]" started-at="2021-08-14T15:58:40Z" name="VerifyRetriever" finished-at="2021-08-14T15:58:41Z" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRetriever -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.toptal.TopTalTest@3bc42a2c]" started-at="2021-08-14T15:58:41Z" name="tearDown" finished-at="2021-08-14T15:58:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.toptal.TopTalTest -->
+    </test> <!-- Task One  Scenario -->
+  </suite> <!-- Task One Suite -->
+  <suite started-at="2021-08-14T15:58:41Z" name="Task Two Suite" finished-at="2021-08-14T15:58:53Z" duration-ms="11536">
+    <groups>
+    </groups>
+    <test started-at="2021-08-14T15:58:41Z" name="Task Two Scenario" finished-at="2021-08-14T15:58:53Z" duration-ms="11536">
+      <class name="testSuites.toptal.TopTalTest">
+        <test-method is-config="true" signature="startEngine()[pri:0, instance:testSuites.toptal.TopTalTest@20a78364]" started-at="2021-08-14T15:58:41Z" name="startEngine" finished-at="2021-08-14T15:58:41Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method signature="NavigateToUrl()[pri:4, instance:testSuites.toptal.TopTalTest@20a78364]" started-at="2021-08-14T15:58:41Z" name="NavigateToUrl" finished-at="2021-08-14T15:58:53Z" duration-ms="11220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUrl -->
+        <test-method signature="ValidateUserListTable()[pri:5, instance:testSuites.toptal.TopTalTest@20a78364]" started-at="2021-08-14T15:58:53Z" name="ValidateUserListTable" finished-at="2021-08-14T15:58:53Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserListTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.toptal.TopTalTest@20a78364]" started-at="2021-08-14T15:58:53Z" name="tearDown" finished-at="2021-08-14T15:58:53Z" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.toptal.TopTalTest -->
+    </test> <!-- Task Two Scenario -->
+  </suite> <!-- Task Two Suite -->
+</testng-results>

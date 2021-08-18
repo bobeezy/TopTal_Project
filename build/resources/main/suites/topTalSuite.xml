@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TopTal Suite">
+    <test name="TopTal Scenario">
+        <parameter name="testCase" value="FindPurchaseOrderById_NegativeScenario1"/>
+        <parameter name="environmentName" value="store"/>
+        <classes>
+            <class name="testSuites.toptal.TopTalTest">
+<!--            <class name="apiTest.PetTest">-->
+                <methods>
+                    <include name="NavigateToUrl"/>
+                    <include name="ValidateUserListTable"/>
+                    <include name="ClickAddUser"/>
+                    <include name="AddUsersToTable"/>
+                    <include name="ValidateUserNameIsUnique"/>
+                    <include name="ValidateUserAreAddedToList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
